@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Teapot Creative Contact Form</title>
+
+<!-- Validate js     -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Inria+Serif|Roboto+Slab&display=swap" rel="stylesheet">
+<!-- stylesheet  -->
+<link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+
+  <body>
+
+<section id="navbar">
+
+<!-- Brand -->
+<div class=".navbar-brand">
+  <img src="https://www.teapotcreative.co.uk/wp-content/uploads/2018/11/logo-high-res.png" alt="Teapot creative">
+</div>
+</section>
+
+<!-- Main section with descriotive text and contact form -->
+
+
+<section id="Contact">
+  <div classs="inner"></div>
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-6 welcome">
+    <h1> welcome to the Teapot Creative interview application form. </h1> <br></br>
+
+<h2>If you would like more information on random pyjamas and strange soundbytes from Dan please get in touch</h2>
+
+  </div>
+  <div class="col-sm-6 contactForm ">
+    <form  action="index.php" method="post">
+      <p>Name</p>
+      <input id="test" class="inputs" type="text" name="name" placeholder="e.g. John Smith" maxlength="50" required> <br>
+      <div class="hidden errorText"> Please enter a valid name. </div>
+      <p>Email</p>
+      <input class="inputs" type="email" name="email" placeholder="e.g John@domain.com" maxlength="40" required> <br>
+      <div class="hidden errorText"> Please enter a valid email. </div>
+      <p>Contact number</p>
+      <input class="inputs" type="tel" name="mobile" placeholder="07812345678" maxlength="11" required> <br>
+      <div class="hidden errorText"> Please enter a valid contact number. </div>
+      <p>Any comments</p>
+      <input class="inputs" type="text" name="comments" placeholder="Any comments of pyjamas here" maxlength="50"> <br>
+      <div class="hidden errorText"> Please keep comments under 50 characters. </div>
+      <p>pyjama choice</p>
+      <input class="inputs" type="radio" name="sex" value=""> <p>Male</p>
+      <input class="inputs" type="radio" name="sex" value=""> <p>Female</p> <br>
+      <button type="submit" class="btn btn-info">submit</button>
+</form>
+      </div>
+
+
+
+
+  </div>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section id="footer">
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+  </body>
+</html>
