@@ -1,1 +1,61 @@
 
+h1 {
+  color: #0f4c75;
+  font-family: Inria serif, serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #758184;
+  font-size: 1.5rem;
+}
+
+p {
+  display: inline;
+  font-family: roboto slab, serif;
+  color: #58595b;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.75rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.invalidField {
+background-color: #ffb6b9;
+border: 2px solid red;
+text-decoration: underline red dotted ;
+}
+
+.validField {
+  background-color: #c0ffb3 ;
+  border: solid 2PX #ccda46;
+}
+
+#navbar {
+  margin: 5% 10%;
+}
+
+#contact {
+
+  margin: 10% 75%;
+}
+
+
+.contact {
+  margin: 70%;
+}
+
+.contactForm {
+  padding: 50px;
+  background-color: #40bfc1;
+  text-align: center;
+}
+
+.inputs {
+margin  : 10px 10px;
+}
